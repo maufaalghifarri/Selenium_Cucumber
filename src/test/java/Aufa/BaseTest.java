@@ -9,11 +9,11 @@ public class BaseTest {
     protected static WebDriver driver;
 
     protected void getDriver() {
-        EdgeOptions options = new EdgeOptions();
-        options.addArguments("--headless");
-        WebDriverManager.edgedriver().setup();
-        driver = new EdgeDriver(options);
+//        EdgeOptions options = new EdgeOptions();
+//        options.addArguments("--headless");
+//        WebDriverManager.edgedriver().setup();
+//        driver = new EdgeDriver(options);
 
-//        driver = WebDriverManager.edgedriver().create();
+        driver = WebDriverManager.edgedriver().create();
     }
 }
