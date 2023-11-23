@@ -42,7 +42,7 @@ jobs:
       if: always ()
       with:
         name: Cucumber Report 
-        path: Reports
+        path: reports
 
     #Deploy to Github Pages
     - name: Deploy report to Github Pages
