@@ -1,15 +1,13 @@
-package Aufa;
-
-
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        glue = {"Aufa"},
+        glue = {"stepdef"},
         features = {"src/test/resources"},
         plugin = {"pretty"}
+//        tags = "@success-login"
 )
-public class CucumberTest {
+public class TestRunner {
 }

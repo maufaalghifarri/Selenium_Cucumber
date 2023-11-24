@@ -1,7 +1,6 @@
-package Aufa.stepdef;
+package stepdef;
 
-import Aufa.BaseTest;
-import Aufa.page.LoginPage;
+import page.LoginPage;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;

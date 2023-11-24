@@ -1,6 +1,5 @@
-package Aufa.stepdef;
+package stepdef;
 
-import Aufa.BaseTest;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 

@@ -1,7 +1,6 @@
-@orderSauceLabsBackpack
 Feature: Login Feature
 
-  @add-orderSauceLabsBackpack
+
   Scenario: User success to add Sauce Labs Backpack to chart
     Given user is on the login page
     And user input email text box with "standard_user"
@@ -15,7 +14,6 @@ Feature: Login Feature
     Then user sees the Sauce Labs Backpack on the cart page
 
 
-  @remove-orderSauceLabsBackpack
   Scenario: User success to remove Sauce Labs Backpack
     Given user is on the login page
     And user input email text box with "standard_user"
